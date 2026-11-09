@@ -36,7 +36,7 @@ export function SiteFooter() {
           <div>
             <h3>Comunidade</h3>
             <Link to="/comunidade">Histórias e impacto</Link>
-            <Link to="/comunidade#organizacoes">Para organizações</Link>
+            <Link to="/comunidade">Comunidade</Link>
             <Link to="/lista-de-espera">Lista de espera</Link>
             <Link to="/confianca#acessibilidade">Acessibilidade</Link>
           </div>

@@ -351,22 +351,6 @@ export function HomePage() {
                 </figcaption>
               </figure>
             </Reveal>
-            <Reveal delay={220}>
-              <div className="org-strip">
-                <div>
-                  <span className="mono-label">Para organizações</span>
-                  <h3>Escolas, associações e ONGs</h3>
-                  <p>
-                    Leve a Percebera ao seu programa: mentores verificados, trocas acompanhadas e
-                    relatórios de participação.
-                  </p>
-                </div>
-                <Link to="/comunidade#organizacoes" className="btn btn--secondary btn--sm">
-                  Ver programa
-                  <ArrowRightIcon size={15} />
-                </Link>
-              </div>
-            </Reveal>
           </div>
         </div>
       </section>

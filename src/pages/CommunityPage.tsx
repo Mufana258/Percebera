@@ -6,26 +6,11 @@ import { Avatar, SectionHeading } from "../components/Primitives";
 import {
   ArrowRightIcon,
   CheckCircleIcon,
-  GlobeIcon,
   QuoteIcon,
   ShieldCheckIcon,
   SwapIcon,
   UsersIcon,
 } from "../components/Icons";
-
-const PROVINCE_DATA = [
-  { province: "Maputo Cidade", value: 28 },
-  { province: "Sofala", value: 13 },
-  { province: "Nampula", value: 12 },
-  { province: "Zambézia", value: 10 },
-  { province: "Manica", value: 9 },
-  { province: "Tete", value: 7 },
-  { province: "Gaza", value: 6 },
-  { province: "Cabo Delgado", value: 5 },
-  { province: "Inhambane", value: 4 },
-  { province: "Niassa", value: 3 },
-  { province: "Maputo Província", value: 3 },
-];
 
 const VALUES = [
   {
@@ -134,43 +119,6 @@ export function CommunityPage() {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      <section className="section section--paper">
-        <div className="container coverage-grid">
-          <Reveal>
-            <p className="eyebrow">Cobertura</p>
-            <h2 className="display-2">Onde a comunidade já está.</h2>
-            <p>
-              Moçambique é grande e diverso. O piloto começa nas cidades com maior densidade de
-              membros e cresce com coordenadores locais, não por decreto.
-            </p>
-            <div className="coverage-note">
-              <GlobeIcon size={18} />
-              <p>
-                Distribuição ilustrativa dos primeiros membros. Nesta demonstração, os perfis
-                representam todas as províncias, mas os números não são medições reais.
-              </p>
-            </div>
-            <Link to="/descobrir" className="btn btn--secondary btn--sm">
-              Ver ofertas por província
-              <ArrowRightIcon size={15} />
-            </Link>
-          </Reveal>
-          <Reveal delay={80}>
-            <div className="coverage-list">
-              {PROVINCE_DATA.map((item) => (
-                <div className="coverage-row" key={item.province}>
-                  <span>{item.province}</span>
-                  <div>
-                    <span style={{ width: `${(item.value / 28) * 100}%` }} />
-                  </div>
-                  <strong>{item.value}%</strong>
-                </div>
-              ))}
-            </div>
-          </Reveal>
         </div>
       </section>
 

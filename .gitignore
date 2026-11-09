@@ -3,5 +3,7 @@ dist/
 .env
 .env.*
 *.local
+.firebase/
+.vite/
 .DS_Store
 Thumbs.db

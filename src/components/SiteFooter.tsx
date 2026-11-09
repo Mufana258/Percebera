@@ -14,7 +14,6 @@ export function SiteFooter() {
       <div className="container site-footer__top">
         <div className="site-footer__brand">
           <Logo inverse />
-          <p className="site-footer__motto">Ku twisisa: compreender primeiro, trocar depois.</p>
           <p className="site-footer__mission">
             Uma plataforma comunitária para partilhar o que já sabemos e aprender o que
             precisamos, sem dinheiro pelo meio.

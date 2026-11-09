@@ -103,10 +103,6 @@ export function HomePage() {
               A Percebera liga pessoas que querem trocar conhecimentos, ofícios e serviços. Sem
               dinheiro pelo meio: o que se aprende, devolve-se a ensinar.
             </p>
-            <div className="motto-line">
-              <span className="motto-line__word">Ku twisisa</span>
-              <span className="motto-line__translation">compreender, em Xitsonga</span>
-            </div>
             <div className="hero__actions">
               <Link to="/descobrir" className="btn btn--primary btn--lg">
                 Explorar trocas
@@ -375,9 +371,6 @@ export function HomePage() {
                 Prioridade nas vagas do piloto
               </li>
             </ul>
-            <p className="launch-band__signature">
-              Ku twisisa. Primeiro compreender, depois trocar.
-            </p>
           </Reveal>
           <Reveal delay={100} className="launch-band__form">
             <p className="mono-label">Lista de espera</p>

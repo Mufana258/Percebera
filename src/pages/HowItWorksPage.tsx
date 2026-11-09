@@ -100,9 +100,8 @@ export function HowItWorksPage() {
           <p className="eyebrow">Como funciona</p>
           <h1 className="display-1 display-1--page">Antes de trocar, perceber.</h1>
           <p className="page-hero__lead page-hero__lead--wide">
-            Ku twisisa significa compreender. A Percebera não é um catálogo de cursos. É uma forma
-            de encontrar alguém que já sabe o que quer aprender e que também quer aprender algo
-            consigo.
+            A Percebera não é um catálogo de cursos. É uma forma de encontrar alguém que já sabe o
+            que quer aprender e que também quer aprender algo consigo.
           </p>
           <div className="statement-tags">
             <span>Pessoas, não cursos</span>
